@@ -628,6 +628,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &953830164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 953830165}
+  - component: {fileID: 953830166}
+  m_Layer: 0
+  m_Name: Obstacle Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &953830165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953830164}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5, z: 40}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &953830166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953830164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f53490654ba804479a5b1c5a79c1406, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstaclePrefabs:
+  - {fileID: 4086626215853160412, guid: 594199d27368d16428074ecd2ce65de0, type: 3}
+  - {fileID: 8460341063515234046, guid: 4cbfdb8c5cdb230429038e56171d2112, type: 3}
+  - {fileID: 6783947458871473411, guid: d52c490a21679d14e8182df897f3df56, type: 3}
+  - {fileID: 8460341063515234046, guid: 2dd887114b143344cb34271848132bc1, type: 3}
+  - {fileID: 8460341063515234046, guid: 46157e8dd8baf7e4db728e11ec2d8e63, type: 3}
+  - {fileID: 8460341063515234046, guid: b38e3068bc623c34ca9736ae314ca93d, type: 3}
+  obstacleSpawnTime: 2
+  obstacleParent: {fileID: 91599896}
+  spawnWidth: 4
 --- !u!1001 &1496325541
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -732,3 +786,4 @@ SceneRoots:
   - {fileID: 384223200}
   - {fileID: 617046867}
   - {fileID: 91599896}
+  - {fileID: 953830165}
