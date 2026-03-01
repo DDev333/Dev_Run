@@ -4,11 +4,9 @@ A fast-paced survival runner where you navigate through procedurally-spawning ob
 
 ## Gameplay Preview
 
-![Gameplay Video Placeholder](./Media/Dev_Run_Gameplay.gif)
-*Add your gameplay video here*
+<img src="./Media/Dev_Run_Gameplay.gif" alt="Gameplay Video Placeholder" width="100%">
 
 ![Screenshot 1 - Gameplay](./Media/Dev_Run_SS_2.png)
-*Add gameplay screenshot here*
 
 ## Features
 
@@ -118,17 +116,6 @@ Assets/
 - **Animation**: Animator component for character reactions
 - **UI**: TextMesh Pro for score and time display
 
-## Game Settings (Configurable)
-
-| Setting | Default | Range |
-|---------|---------|-------|
-| Starting Time | 5s | 1-120s |
-| Base Spawn Speed | 8 units/s | 2-20 units/s |
-| Min Obstacle Spawn Time | 0.2s | 0.1-1s |
-| Collision Cooldown | 1s | 0.1-5s |
-| Checkpoint Interval | Every 8 chunks | 4-20 chunks |
-| Time Extension per Checkpoint | 5s | 1-15s |
-
 ## Controls
 
 | Input | Action |
@@ -155,20 +142,14 @@ Assets/
 
 ---
 
-*Add more screenshots below*
-
+## Gameplay Screenshots
 ![Screenshot 2 - Fumble](./Media/Dev_Run_SS_3.png)
-*Add fumble screen screenshot here*
 
 ![Screenshot 3 - Boulder](./Media/Dev_Run_SS_4.png)
-*Add boulder moment screenshot here*
 
 ![Screenshot 4 - Checkpoint](./Media/Dev_Run_SS_5.png)
-*Add checkpoint moment screenshot here*
 
 ![Screenshot 5 - Close-up](./Media/Dev_Run_SS_6.png)
-*Add close-up moment screenshot here*
 
 ![Screenshot 6 - Game Over](./Media/Dev_Run_SS_1.png)
-*Add game over screen screenshot here*
 
